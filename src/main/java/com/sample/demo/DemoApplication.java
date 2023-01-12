@@ -9,7 +9,7 @@ public class DemoApplication {
 	
 	@GetMapping("/welcome")
 	public string welcome(){
-		return "welcome to javatech"
+		return "welcome to javatech" !;
 	}
 
 	public static void main(String[] args) {
